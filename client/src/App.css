@@ -1,0 +1,10 @@
+.container {
+  background: rgba(10, 14, 30, 0.55);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(46, 168, 255, 0.25);
+  border-radius: 20px;
+  padding: 40px !important;
+  margin-top: 60px !important;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  color: #e8ecf5;
+}

@@ -1,0 +1,104 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0a0e3d;
+  
+  color: #e8ecf5;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(2px);
+  z-index: -1;
+}
+
+.card {
+  background: rgba(18, 22, 34, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  color: #e8ecf5;
+}
+
+.btn-primary {
+  background-color: #2a63ff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1e4fd6;
+}
+
+.btn-success {
+  background-color: #ffb020;
+  border: none;
+  color: #0b0e17;
+}
+
+.btn-success:hover {
+  background-color: #e69c14;
+  color: #0b0e17;
+}
+
+.btn-outline-primary, .btn-outline-success, .btn-outline-danger {
+  border-color: rgba(255,255,255,0.3);
+  color: #e8ecf5;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: #e8ecf5;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(42, 99, 255, 0.25);
+  border-color: #2a63ff;
+  color: #e8ecf5;
+}
+
+.form-control::placeholder {
+  color: rgba(232, 236, 245, 0.4);
+}
+
+.table {
+  background: #ffffff;
+  color: #1a1d2b;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table th {
+  background: #f4f6fb;
+  color: #1a1d2b;
+  font-weight: 600;
+  border-color: #e2e5ee !important;
+}
+
+.table td {
+  color: #2d2f3d;
+  border-color: #e2e5ee !important;
+}
+
+.table a {
+  color: #2a63ff;
+  font-weight: 500;
+}
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+a {
+  color: #2a63ff;
+}
