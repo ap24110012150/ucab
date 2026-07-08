@@ -29,6 +29,7 @@ function App() {
 <Route path="/driver/dashboard" element={<PrivateRoute><DriverDashboard /></PrivateRoute>} />
         <Route path="/track/:rideId" element={<PrivateRoute><RideTracking /></PrivateRoute>} />
         <Route path="/pay" element={<PrivateRoute><PaymentPage /></PrivateRoute>} />
+<Route path="/pay/:rideId" element={<PrivateRoute><PaymentPage /></PrivateRoute>} />
         <Route path="/history" element={<PrivateRoute><BookingHistory /></PrivateRoute>} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
